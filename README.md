@@ -4,7 +4,7 @@ Each row represents a group of releases that have passed some level of integrati
 
 ## CSV Columns
 
-In compatibility-v1.csv, we track the following information:
+In compatibility-v2.csv, we track the following information:
 
 ### RELEASE_STAGE
 
@@ -45,3 +45,15 @@ git checkout <DIEGO_RELEASE_VERSION>
 
 The version of the stemcell that diego-release was deployed with.
 Stemcells can be found [here](http://bosh.io/stemcells).
+
+### GARDEN_LINUX_RELEASE_VERSION
+
+The version of [garden-linux-release](https://github.com/cloudfoundry-incubator/garden-linux-release) that was deployed.
+
+To check out the corresponding commit on diego release:
+```
+git clone https://github.com/cloudfoundry-incubator/garden-linux-release
+cd garden-linux-release/
+git checkout <GARDEN_LINUX_RELEASE_VERSION>
+```
+
