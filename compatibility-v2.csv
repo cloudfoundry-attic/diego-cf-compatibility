@@ -1,3 +1,4 @@
 DATE,RELEASE_STAGE,DIRECTOR_VERSION,CF_RELEASE_COMMIT_SHA,CF_DEPLOYMENT_STEMCELL,DIEGO_RELEASE_VERSION,DIEGO_RELEASE_COMMIT_SHA,DIEGO_DEPLOYMENT_STEMCELL,GARDEN_LINUX_RELEASE_VERSION
 Wed Aug 19 20:54:08 UTC 2015,release_candidate,1.2992.0,541d8beb,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3048,0.1424.1,38279580,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3048,0.295.0
 Thu Aug 20 16:27:28 UTC 2015,release_candidate,1.2992.0,541d8beb,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3048,0.1425.0,191abf70,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3048,0.296.0
+Fri Aug 21 22:59:04 UTC 2015,release_candidate,1.2992.0,3f8df2eb,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3056,0.1425.0,191abf70,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3056,0.296.0
