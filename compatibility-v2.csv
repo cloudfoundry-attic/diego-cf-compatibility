@@ -170,3 +170,4 @@ Mon Nov 9 17:02:21 UTC 2015,release_candidate,1.2992.0,a3114eeb,bosh-aws-xen-hvm
 Tue Nov 10 00:13:12 UTC 2015,release_candidate,1.2992.0,d4c20d01,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3126,0.1440.0,deb51e25,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3126,0.326.0,18
 Tue Nov 10 03:53:12 UTC 2015,release_candidate,1.2992.0,2eb1e78a,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3126,0.1440.0,deb51e25,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3126,0.326.0,18
 Tue Nov 10 15:31:44 UTC 2015,release_candidate,1.2992.0,9934cb7d,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3126,0.1440.0,deb51e25,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3126,0.326.0,18
+Wed Nov 11 19:48:15 UTC 2015,release_candidate,1.2992.0,9934cb7d,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3126,0.1440.0,deb51e25,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3130,0.326.0,18
