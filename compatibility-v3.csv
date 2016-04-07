@@ -10,3 +10,4 @@ date,director-version,cf-release-commit-sha,diego-release-commit-sha,diego-relea
 2016-04-06T20:48:46Z,1.3215.1.0,2baa086ff20b8ec56cbdb753db27d0e541268b05,7147bff097c5d2c361dfd201ee13fba35c52b684,0.1463.0,0.335.0,43,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3215
 2016-04-06T23:11:00Z,1.3215.1.0,07658c3616e9854e905ab06cc6d7a42aacbadabb,7147bff097c5d2c361dfd201ee13fba35c52b684,0.1463.0,0.335.0,44,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3215
 2016-04-07T04:19:51Z,1.3215.1.0,26399445abe02390411a3631b37bbae8e2d3f2d2,7147bff097c5d2c361dfd201ee13fba35c52b684,0.1463.0,0.335.0,44,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3215
+2016-04-07T20:32:45Z,1.3215.1.0,419bacc3afc0a738224e9886bb179fc86e23d8af,7147bff097c5d2c361dfd201ee13fba35c52b684,0.1463.0,0.335.0,44,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3215
