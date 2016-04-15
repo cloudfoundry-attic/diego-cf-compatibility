@@ -4,7 +4,21 @@ Each row represents a group of releases that have passed some level of integrati
 
 ## CSV Columns
 
-### v3 schema
+### v4 schema
+In `compatibility-v4.csv`, we track the following information:
+
+| name | description |
+|---|---|
+| `cf-release-commit-sha` | The sha of the [cf-release](https://github.com/cloudfoundry/cf-release) commit that was deployed. More information on deploying cf-release can be found [here](http://docs.cloudfoundry.org/deploying/). |
+| `diego-release-commit-sha` | The commit sha of [diego-release](https://github.com/cloudfoundry-incubator/diego-release) that was deployed. |
+| `diego-release-version` | The version of [diego-release](https://github.com/cloudfoundry-incubator/diego-release) that was deployed. |
+| `garden-linux-release-version` | The version of [garden-linux-release](https://github.com/cloudfoundry-incubator/garden-linux-release) that was deployed. |
+| `etcd-release-version` | The version of [etcd-release](https://github.com/cloudfoundry-incubator/etcd-release) that was deployed. |
+| `cflinuxfs2-rootfs-release-version` | The version of [cflinuxfs2-rootfs-release](https://github.com/cloudfoundry/cflinuxfs2-rootfs-release) that was deployed. |
+| `director-version` | The current version of the bosh director associated with each record. Check out the [BOSH documentation](https://bosh.io/docs) for more information on how to deploy a specific director version. |
+| `stemcell` | The version of the stemcell that the releases (cf, diego, etcd, garden-linux) were deployed with. Stemcells can be found [here](http://bosh.io/stemcells). |
+
+### v3 schema (DEPRECATED)
 In `compatibility-v3.csv`, we track the following information:
 
 | name | description |
