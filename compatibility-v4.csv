@@ -1,3 +1,4 @@
 date,cf-release-commit-sha,diego-release-commit-sha,diego-release-version,garden-linux-release-version,etcd-release-version,cflinuxfs2-rootfs-release-version,stemcell,director-version
 2016-04-15T17:52:39Z,9830a3298f86ba2bc62d3320bba4cbb4993dc848,3a5868c7260f031c818919e70c8cc2682722015e,0.1466.0,0.337.0,45,0.2.0,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3215,1.3215.1.0
 2016-04-16T05:22:04Z,49d64aa1eda7aca3f114b8dbcf7df64c59e9b387,3a5868c7260f031c818919e70c8cc2682722015e,0.1466.0,0.337.0,45,0.2.0,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3215.4,1.3215.1.0
+2016-04-18T20:31:29Z,f859e0d2ce413aa4d7b728455b80909148136cc9,3a5868c7260f031c818919e70c8cc2682722015e,0.1466.0,0.337.0,45,0.2.0,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3215.4,1.3215.1.0
