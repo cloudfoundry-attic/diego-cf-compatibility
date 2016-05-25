@@ -51,3 +51,4 @@ date,cf-release-commit-sha,diego-release-commit-sha,diego-release-version,garden
 2016-05-18T22:44:49Z,ca74a57978fa6f6cef2596162e990e3ff866a518,8d53c547ae81d6f43db0a4e21dc6417f6da6bc65,0.1472.0,0.337.0,49,1.8.0,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3232.4,1.3215.3.0
 2016-05-19T15:27:44Z,e869447541ef98dd2e91bcad7bf51c1f6ad50f94,8d53c547ae81d6f43db0a4e21dc6417f6da6bc65,0.1472.0,0.337.0,50,1.8.0,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3232.4,1.3215.3.0
 2016-05-25T00:34:45Z,4b04b2a5270b2af2c5555f450b5caa34f1f279dd,466f05d22c3556bd1ed1e935221db22be34b09b6,0.1473.0,0.337.0,51,1.9.0,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3232.4,1.3215.3.0
+2016-05-25T03:33:11Z,df834bb186d45768b298181962e7b0202905b927,466f05d22c3556bd1ed1e935221db22be34b09b6,0.1473.0,0.337.0,51,1.9.0,bosh-aws-xen-hvm-ubuntu-trusty-go_agent/3232.4,1.3215.3.0
