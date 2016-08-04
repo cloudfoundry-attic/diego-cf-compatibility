@@ -4,8 +4,30 @@ Each row represents a group of releases that have passed some level of integrati
 
 ## CSV Columns
 
-### v4 schema
-In `compatibility-v4.csv`, we track the following information:
+### v5 schema
+This version of the schema provides more IaaS-specific information. No previous version continues to be updated. In `compatibility-v5.csv`, we track the following information:
+
+| name | description |
+|---|---|
+| `cf-release-commit-sha` | The sha of the [cf-release](https://github.com/cloudfoundry/cf-release) commit that was deployed. More information on deploying cf-release can be found [here](http://docs.cloudfoundry.org/deploying/). |
+| `diego-release-commit-sha` | The commit sha of [diego-release](https://github.com/cloudfoundry-incubator/diego-release) that was deployed. |
+| `diego-release-version` | The version of [diego-release](https://github.com/cloudfoundry-incubator/diego-release) that was deployed. |
+| `garden-linux-release-version` | The version of [garden-linux-release](https://github.com/cloudfoundry-incubator/garden-linux-release) that was deployed. |
+| `etcd-release-version` | The version of [etcd-release](https://github.com/cloudfoundry-incubator/etcd-release) that was deployed. |
+| `cflinuxfs2-rootfs-release-version` | The version of [cflinuxfs2-rootfs-release](https://github.com/cloudfoundry/cflinuxfs2-rootfs-release) that was deployed. |
+| `bosh-lite-commit-sha` | The commit SHA of the [bosh-lite repository](https://github.com/cloudfoundry/bosh-lite) used to deploy the releases. |
+| `aws-stemcell` | The version of the stemcell that the releases (cf, diego, etcd, garden-linux) were deployed with. AWS stemcells can be found [here](http://bosh.io/stemcells/bosh-aws-xen-hvm-ubuntu-trusty-go_agent). |
+| `bosh-lite-stemcell` | The version of the stemcell used to deploy the releases (cf, diego, etcd, garden-linux). Bosh Lite stemcells can be found [here](http://bosh.io/stemcells/bosh-warden-boshlite-ubuntu-trusty-go_agent). |
+| `vsphere-stemcell` | The version of the stemcell used to deploy the releases (cf, diego, etcd, garden-linux). vSphere stemcells can be found [here](http://bosh.io/stemcells/bosh-vsphere-esxi-ubuntu-trusty-go_agent). |
+| `aws-director-version` | The version of the bosh director used to deploy the releases on AWS. See the [BOSH documentation](https://bosh.io/docs) for more information on how to deploy a specific director version. |
+| `bosh-lite-director-version` | The version of the bosh director used to deploy the releases on bosh-lite. See the [BOSH documentation](https://bosh.io/docs) for more information on how to deploy a specific director version. |
+| `vsphere-director-version` | The version of the bosh director used to deploy the releases on vSphere. See the [BOSH documentation](https://bosh.io/docs) for more information on how to deploy a specific director version. |
+| `aws-acceptance-tests-build-url` | The URL for the latest passing acceptance tests run for this combination of artifacts on AWS in CI. |
+| `bosh-lite-acceptance-tests-build-url` | The URL for the latest passing acceptance tests run for this combination of artifacts on bosh-lite in CI. |
+| `vsphere-acceptance-tests-build-url` | The URL for the latest passing acceptance tests run for this combination of artifacts on vSphere in CI. |
+
+### v4 schema (OBSOLETE)
+This file is no longer updated. In `compatibility-v4.csv`, we tracked the following information:
 
 | name | description |
 |---|---|
@@ -18,8 +40,8 @@ In `compatibility-v4.csv`, we track the following information:
 | `director-version` | The current version of the bosh director associated with each record. Check out the [BOSH documentation](https://bosh.io/docs) for more information on how to deploy a specific director version. |
 | `stemcell` | The version of the stemcell that the releases (cf, diego, etcd, garden-linux) were deployed with. Stemcells can be found [here](http://bosh.io/stemcells). |
 
-### v3 schema (DEPRECATED)
-In `compatibility-v3.csv`, we track the following information:
+### v3 schema (OBSOLETE)
+This file is no longer updated. In `compatibility-v3.csv`, we tracked the following information:
 
 | name | description |
 |---|---|
@@ -32,7 +54,7 @@ In `compatibility-v3.csv`, we track the following information:
 | `stemcell` | The version of the stemcell that the releases (cf, diego, etcd, garden-linux) were deployed with. Stemcells can be found [here](http://bosh.io/stemcells). |
 
 
-### v2 schema (DEPRECATED)
+### v2 schema (OBSOLETE)
 The v2 file is no longer updated, but can still be consumed. In compatibility-v2.csv, we track the following information:
 
 #### DATE
