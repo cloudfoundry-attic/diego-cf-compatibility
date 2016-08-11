@@ -10,7 +10,6 @@ This version of the schema provides more IaaS-specific information. No previous 
 | name | description |
 |---|---|
 | `cf-release-commit-sha` | The sha of the [cf-release](https://github.com/cloudfoundry/cf-release) commit that was deployed. More information on deploying cf-release can be found [here](http://docs.cloudfoundry.org/deploying/). |
-| `diego-release-commit-sha` | The commit sha of [diego-release](https://github.com/cloudfoundry-incubator/diego-release) that was deployed. |
 | `diego-release-version` | The version of [diego-release](https://github.com/cloudfoundry-incubator/diego-release) that was deployed. |
 | `garden-linux-release-version` | The version of [garden-linux-release](https://github.com/cloudfoundry-incubator/garden-linux-release) that was deployed. |
 | `etcd-release-version` | The version of [etcd-release](https://github.com/cloudfoundry-incubator/etcd-release) that was deployed. |
