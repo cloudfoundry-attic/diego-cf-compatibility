@@ -11,7 +11,8 @@ This version of the schema provides more IaaS-specific information. No previous 
 |---|---|
 | `cf-release-commit-sha` | The sha of the [cf-release](https://github.com/cloudfoundry/cf-release) commit that was deployed. More information on deploying cf-release can be found [here](http://docs.cloudfoundry.org/deploying/). |
 | `diego-release-version` | The version of [diego-release](https://github.com/cloudfoundry-incubator/diego-release) that was deployed. |
-| `garden-linux-release-version` | The version of [garden-linux-release](https://github.com/cloudfoundry-incubator/garden-linux-release) that was deployed. |
+| `garden-linux-release-version` | The version of [garden-linux-release](https://github.com/cloudfoundry-incubator/garden-linux-release) that was deployed on vSphere. |
+| `garden-runc-release-version` | The version of [garden-runc-release](https://github.com/cloudfoundry-incubator/garden-runc-release) that was deployed on AWS and bosh-lite. |
 | `etcd-release-version` | The version of [etcd-release](https://github.com/cloudfoundry-incubator/etcd-release) that was deployed. |
 | `cflinuxfs2-rootfs-release-version` | The version of [cflinuxfs2-rootfs-release](https://github.com/cloudfoundry/cflinuxfs2-rootfs-release) that was deployed. |
 | `bosh-lite-commit-sha` | The commit SHA of the [bosh-lite repository](https://github.com/cloudfoundry/bosh-lite) used to deploy the releases. |
