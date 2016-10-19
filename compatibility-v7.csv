@@ -1,0 +1,1 @@
+date,cf-release-commit-sha,diego-release-version,garden-runc-release-version,etcd-release-version,cflinuxfs2-rootfs-release-version,bosh-lite-commit-sha,aws-stemcell,bosh-lite-stemcell,vsphere-stemcell,aws-director-version,bosh-lite-director-version,vsphere-director-version,aws-acceptance-tests-build-url,bosh-lite-acceptance-tests-build-url,vsphere-acceptance-tests-build-url
