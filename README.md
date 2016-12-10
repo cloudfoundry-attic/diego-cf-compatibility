@@ -24,8 +24,8 @@ No previous version continues to be updated. This version no longer reports a et
 | `bosh-lite-acceptance-tests-build-url` | The URL for the latest passing acceptance tests run for this combination of artifacts on bosh-lite in CI. |
 | `vsphere-acceptance-tests-build-url` | The URL for the latest passing acceptance tests run for this combination of artifacts on vSphere in CI. |
 
-### v7 schema
-No previous version continues to be updated. This version no longer reports a garden-linux version, as it has been removed from our CI. In `compatibility-v7.csv`, we track the following information:
+### v7 schema (OBSOLETE)
+This file is no longer updated. In `compatibility-v7.csv`, we track the following information:
 
 | name | description |
 |---|---|
