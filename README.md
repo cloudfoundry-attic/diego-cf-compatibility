@@ -5,7 +5,7 @@ Each row represents a group of releases that have passed some level of integrati
 ## CSV Columns
 
 ### v11 schema
-No previous version continues to be updated. This version now reports a grootfs version. In `compatibility-v10.csv`, we track the following information:
+No previous version continues to be updated. This version now reports a grootfs version. In `compatibility-v11.csv`, we track the following information:
 
 | name | description |
 |---|---|
